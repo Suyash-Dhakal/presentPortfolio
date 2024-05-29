@@ -24,7 +24,7 @@
 
 <h2>Usage Instructions</h2>
 
-To run the DFA keyword recognizer:
+To view the portfolio site:
 
 * Clone this repository to your local machine using git clone https://github.com/Suyash-Dhakal/presentPortfolio.git
 * Open index.html in your preferred web browser.
