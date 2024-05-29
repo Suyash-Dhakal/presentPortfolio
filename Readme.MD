@@ -22,22 +22,12 @@
     <li><strong>Blog Section:</strong> A space for writing and sharing articles related to my field.</li>
 </ul>
 
-<h2 id="usage">Usage</h2>
-<p>To start the development server, run:</p>
-<pre><code>npm start
-</code></pre>
-<p>or if you are using yarn:</p>
-<pre><code>yarn start
-</code></pre>
-<p>This will launch the website on <code>http://localhost:3000</code> (or another port, if specified).</p>
-<p>To build the project for production, run:</p>
-<pre><code>npm run build
-</code></pre>
-<p>or if you are using yarn:</p>
-<pre><code>yarn build
-</code></pre>
-<p>The optimized files will be located in the <code>build</code> directory.</p>
+<h2>Usage Instructions</h2>
 
+To run the DFA keyword recognizer:
+
+* Clone this repository to your local machine using git clone https://github.com/Suyash-Dhakal/presentPortfolio.git
+* Open index.html in your preferred web browser.
 <h2 id="contributing">Contributing</h2>
 <p>I welcome contributions to this project! If you have suggestions for improvements or want to report bugs, please open an issue or submit a pull request.</p>
 
