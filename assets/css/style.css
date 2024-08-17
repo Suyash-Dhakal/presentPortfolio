@@ -612,10 +612,13 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(69, 80, 91, 0.8);
+  border-radius: 25px; /* Add border-radius here */
 }
 
 .portfolio .portfolio-wrap::before {
   content: "";
+  /* background-color: #5c97cd; */
+  /* background: rgba(92, 151, 205, 0.3); */
   background: rgba(255, 255, 255, 0.7);
   position: absolute;
   left: 30px;
@@ -1201,4 +1204,50 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+
+.port-display{
+  display: flex;
+  margin-left: 10px;
+}
+
+/* *****************GITHUB BUTTON*************************** */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 15px;
+  background-color: #181717;
+  outline: 3px #181717 solid;
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.button .text {
+  color: white;
+  font-weight: 700;
+  font-size: 1em;
+  transition: 400ms;
+}
+
+.button svg path {
+  transition: 400ms;
+}
+
+.button:hover {
+  background-color: transparent;
+  
+}
+
+.button:hover .text {
+  color: #181717;
+}
+
+.button:hover svg path {
+  fill: #181717;
 }
